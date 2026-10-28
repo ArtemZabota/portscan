@@ -6,15 +6,11 @@ Go-пакет TCP Connect-сканирования для встраивания
 
 ## Использование
 
-Модуль называется `example.com/portscan`: это локальный путь-заглушка, а не опубликованный репозиторий. Для использования из соседнего приложения добавьте в его `go.mod`:
+Установка пакета:
 
-```go
-require example.com/portscan v0.0.0
-
-replace example.com/portscan => ../portscan
+```sh
+go get github.com/ArtemZabota/portscan
 ```
-
-Перед публикацией замените путь модуля и импорт в `example_test.go` адресом своего Git-репозитория.
 
 ```go
 package main
@@ -25,7 +21,7 @@ import (
     "log"
     "time"
 
-    "example.com/portscan"
+    "github.com/ArtemZabota/portscan"
 )
 
 func main() {

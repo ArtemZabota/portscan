@@ -6,7 +6,7 @@ import (
 	"net"
 	"time"
 
-	"example.com/portscan"
+	"github.com/ArtemZabota/portscan"
 )
 
 func ExampleScanner_Scan() {
