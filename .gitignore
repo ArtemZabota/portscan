@@ -1,0 +1,4 @@
+*.test
+*.test.exe
+*.out
+coverage.html
